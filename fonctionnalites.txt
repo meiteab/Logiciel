@@ -1,0 +1,119 @@
+le logiciel sera devolopper 
+backend:laravel
+font end : react 
+
+
+Je te propose une liste exhaustive des fonctionnalités, bien structurée par modules.
+On couvre tout : administratif, pédagogique, financier, communication, documents, statistiques, sécurité, etc.
+
+1. Module Administration & Paramétrage
+Gestion des profils utilisateurs (admin, enseignant, élève, parent, personnel administratif).
+Gestion des droits et rôles.
+Paramétrage des années scolaires.
+Paramétrage des niveaux scolaires (Français & Arabe).
+Paramétrage des matières (Français & Arabe).
+Paramétrage des emplois du temps.
+Gestion des périodes (trimestres, semestres, mois).
+Paramétrage des frais de scolarité et autres paiements.
+Paramétrage des notifications (email, SMS, push).
+Configuration des langues d’affichage (français, arabe).
+
+2. Module Élèves
+Inscription et réinscription des élèves.
+Gestion des fiches élèves (informations personnelles, photo, contacts).
+Attribution du niveau Français et du niveau Arabe séparément.
+Transfert interne (d’un niveau à un autre) et suivi du parcours scolaire.
+Gestion des documents élèves (acte de naissance, certificats, etc.).
+Gestion des absences et retards.
+Historique scolaire complet (Français & Arabe).
+Dossier disciplinaire.
+
+3. Module Enseignants
+Gestion des fiches enseignants (données personnelles, diplômes, matières enseignées).
+Attribution des classes/matières (Français et/ou Arabe).
+Gestion des absences et remplacements.
+Historique d’enseignement.
+Accès aux emplois du temps.
+Espace de saisie des notes.
+Espace de communication avec l’administration et les parents.
+
+4. Module Classes & Salles
+Création et gestion des classes (Français & Arabe).
+Gestion des effectifs.
+Attribution des élèves aux classes.
+Gestion des salles de cours.
+Association enseignants-salles-matières.
+
+5. Module Pédagogique
+Création et gestion des matières.
+Gestion des emplois du temps.
+Saisie et gestion des notes (Français & Arabe).
+Calcul automatique des moyennes (par programme).
+Classements des élèves (par programme).
+Génération des bulletins de notes (Français et Arabe, séparés ou combinés).
+Gestion des examens et contrôles continus.
+Archivage des résultats.
+Gestion des compétences (si applicable).
+Historique des performances.
+
+6. Module Finances
+Gestion des frais de scolarité.
+Suivi des paiements et soldes.
+Gestion des remises et bourses.
+Gestion des autres recettes (cantine, uniforme, activités).
+Gestion des dépenses.
+Édition de factures et reçus.
+État financier de l’établissement.
+Rapports comptables.
+
+7. Module Documents & Génération Automatique
+Bulletins scolaires (Français & Arabe).
+Certificats de scolarité.
+Certificats de transfert.
+Listes de classes et listes d’élèves.
+États financiers.
+Rapports administratifs.
+Fiches de présence.
+Rapports statistiques.
+
+8. Module Communication
+Envoi de SMS aux parents.
+Envoi d’e-mails groupés.
+Notifications push (mobile).
+Messagerie interne entre professeurs, administration et parents.
+Annonces générales (événements, réunions, examens).
+Publication d’emplois du temps et de résultats sur un portail parents/élèves.
+
+9. Module Portail Web & Mobile
+Portail élèves : résultats, emplois du temps, absences, annonces.
+Portail parents : suivi scolaire, paiement, communication.
+Portail enseignants : saisie notes, emploi du temps, absences.
+Portail administration : gestion globale.
+
+10. Module Statistiques & Analyses
+Statistiques des effectifs par niveau/programme.
+Suivi des performances par matière.
+Analyse des taux de réussite.
+Rapport de présence.
+Analyse financière.
+
+11. Module Sécurité & Sauvegarde
+Authentification sécurisée.
+Gestion des mots de passe.
+Sauvegardes automatiques des données.
+Export/import des données.
+Journalisation des actions (logs).
+
+12. Fonctionnalités Avancées (optionnelles)
+Mode hors ligne (avec synchronisation).
+Archivage annuel.
+Export PDF, Excel, Word.
+Multilingue (Français/Arabe).
+Gestion des activités extra-scolaires.
+Gestion des bibliothèques.
+
+📌 Logique de gestion des deux programmes
+Chaque élève aura deux profils scolaires liés à un seul compte :
+Un pour le programme français.
+Un pour le programme arabe.
+Les bulletins, notes et classements seront donc gérés séparément mais liés à la même identité.
