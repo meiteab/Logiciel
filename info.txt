@@ -1,0 +1,25 @@
+ADMIN → Peut tout faire (directeur, responsable informatique)
+ENSEIGNANT → Peut gérer ses classes et notes
+ELEVE → Peut voir ses notes et emploi du temps
+PARENT → Peut voir les infos de son enfant
+PERSONNEL → Peut gérer les tâches administratives
+
+
+
+GESTION_UTILISATEURS → Peut créer/modifier des comptes
+PARAMETRAGE_PEDAGOGIQUE → Peut modifier les matières, niveaux
+GESTION_FINANCIERE → Peut voir les paiements
+GESTION_NOTES → Peut saisir les notes
+
+
+utilisateur.creer → Peut créer un nouveau compte
+utilisateur.modifier → Peut modifier un compte existant
+utilisateur.supprimer → Peut supprimer un compte
+note.consulter → Peut voir les notes
+note.modifier → Peut modifier les notes
+
+
+Salle A1 → Classe de CP (25 élèves max)
+Salle A2 → Classe de CE1 (25 élèves max)
+Salle LABO → Laboratoire sciences (30 élèves max)
+Salle SPORT → Gymnase (50 élèves max)
