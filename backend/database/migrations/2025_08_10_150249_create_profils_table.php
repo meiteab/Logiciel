@@ -22,12 +22,14 @@ return new class extends Migration
             $table->boolean('peut_gerer_parametres')->default(false); // Peut modifier les paramètres système
             $table->boolean('peut_gerer_finances')->default(false); // Peut gérer les aspects financiers
             $table->boolean('peut_gerer_pedagogie')->default(false); // Peut gérer les aspects pédagogiques
-            $table->text('permissions_specifiques')->nullable(); // Permissions spécifiques en JSON
+            $table->json('permissions_specifiques')->nullable(); // Permissions spécifiques en JSON
             $table->text('notes')->nullable(); // Notes spéciales
             $table->boolean('est_actif')->default(true); // Profil actif ou non
             $table->timestamps();
+            $table->softDeletes(); // Ajouter softDeletes
             $table->index(['categorie', 'niveau_acces']);
             $table->index('est_actif');
+            $table->index('code'); // Ajouter index sur code
         });
     }
 

@@ -1,0 +1,44 @@
+{
+  "prenom": "Fatima",
+  "nom_famille": "Al Mansouri",
+  "civilite": "Mlle",
+  "date_naissance": "2019-08-15",
+  "sexe": "F",
+  "lieu_naissance": "Casablanca",
+  "infos_sante": "Aucun problème de santé",
+  "observations_pedagogiques": "Élève brillante, excellente en langues",
+  "parents": [
+    {
+      "prenom": "Hassan",
+      "nom_famille": "Al Mansouri",
+      "civilite": "M",
+      "date_naissance": "1975-06-20",
+      "lieu_naissance": "Fès",
+      "telephone": "0612345678",
+      "telephone_urgence": "0612345678",
+      "email": "hassan.mansouri@email.com",
+      "adresse": "123 Rue des Palmiers",
+      "ville": "Casablanca",
+      "code_postal": "20000",
+      "pays": "Maroc",
+      "profession": "Médecin",
+      "employeur": "Hôpital Central"
+    },
+    {
+      "prenom": "Amina",
+      "nom_famille": "Al Mansouri",
+      "civilite": "Mme",
+      "date_naissance": "1980-12-10",
+      "lieu_naissance": "Rabat",
+      "telephone": "0612345679",
+      "telephone_urgence": "0612345679",
+      "email": "amina.mansouri@email.com",
+      "adresse": "123 Rue des Palmiers",
+      "ville": "Casablanca",
+      "code_postal": "20000",
+      "pays": "Maroc",
+      "profession": "Enseignante",
+      "employeur": "Lycée Français"
+    }
+  ]
+}

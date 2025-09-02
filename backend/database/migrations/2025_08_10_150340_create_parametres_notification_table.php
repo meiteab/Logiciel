@@ -29,10 +29,10 @@ return new class extends Migration
             $table->timestamps();
             
             // Index pour améliorer les performances
-            $table->index(['modele_notification_id', 'canal_notification_id']);
-            $table->index(['profil_id', 'est_actif']);
-            $table->index('frequence');
-            $table->index('est_actif');
+            $table->index(['modele_notification_id', 'canal_notification_id'], 'idx_param_notif_modele_canal');
+            $table->index(['profil_id', 'est_actif'], 'idx_param_notif_profil_actif');
+            $table->index('frequence', 'idx_param_notif_frequence');
+            $table->index('est_actif', 'idx_param_notif_actif');
         });
     }
 

@@ -7,8 +7,8 @@ Je te propose une liste exhaustive des fonctionnalités, bien structurée par mo
 On couvre tout : administratif, pédagogique, financier, communication, documents, statistiques, sécurité, etc.
 
 1. Module Administration & Paramétrage
-Gestion des profils utilisateurs (admin, enseignant, élève, parent, personnel administratif).
-Gestion des droits et rôles.
+GesGestion des profils utilisateurs (admin, enseignant, élève, parent, personnel administratif).
+tion des droits et rôles.
 Paramétrage des années scolaires.
 Paramétrage des niveaux scolaires (Français & Arabe).
 Paramétrage des matières (Français & Arabe).

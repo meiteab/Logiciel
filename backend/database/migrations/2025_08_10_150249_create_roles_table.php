@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('code')->unique(); // Ex: ADMIN, ENSEIGNANT, ELEVE, PARENT, PERSONNEL
             $table->string('nom'); // Ex: "Administrateur", "Enseignant", "Élève"
             $table->text('description')->nullable(); // Description du rôle
-            $table->enum('categorie', ['administratif', 'pedagogique', 'pedagogique', 'eleve', 'parent', 'autre'])->default('autre');
+            $table->enum('categorie', ['administratif', 'pedagogique', 'eleve', 'parent', 'autre'])->default('autre');
             $table->integer('niveau_priorite')->default(1); // Niveau de priorité (1=bas, 10=élevé)
             $table->boolean('est_role_systeme')->default(false); // Rôle système ou personnalisé
             $table->boolean('peut_etre_modifie')->default(true); // Le rôle peut-il être modifié
